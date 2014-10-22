@@ -1,6 +1,6 @@
 {
   "name": "loop-grid-suppressor",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Transform for suppressing selected loops on loop-grid.",
   "main": "index.js",
   "scripts": {
