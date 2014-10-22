@@ -1,0 +1,27 @@
+{
+  "name": "loop-grid-suppressor",
+  "version": "0.0.0",
+  "description": "Transform for suppressing selected loops on loop-grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/loop-grid-suppressor.git"
+  },
+  "author": "Matt McKegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmckegg/loop-grid-suppressor/issues"
+  },
+  "homepage": "https://github.com/mmckegg/loop-grid-suppressor",
+  "devDependencies": {
+    "observ-grid": "^2.8.0",
+    "tape": "^3.0.1"
+  },
+  "dependencies": {
+    "array-grid": "^1.4.0",
+    "observ": "^0.2.0"
+  }
+}
