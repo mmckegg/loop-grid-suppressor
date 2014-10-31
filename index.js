@@ -14,6 +14,8 @@ module.exports = function(transform, shape, stride){
   self.start = function(suppressIndexes, done){
     self.stop()
 
+    suppressIndexes = suppressIndexes || []
+
     // transform
     release = transform(suppress, suppressIndexes)
 
